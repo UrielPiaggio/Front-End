@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    
+    
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section[id]{
+    scroll-margin-top:80px ;
+}
+
+body {
+    padding: 70px;
+    min-height: 100vh;
+    background-image:url(fondo2.jpg) ;
+    /*background: linear-gradient(rgba(42, 42, 42, 0.6), rgba(0, 0, 0, 0.6)), url(fondo2.jpg);*/
+    background-repeat: no-repeat;
+    background-position:left bottom ;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+.header{
+    background:linear-gradient(#345, rgb(3, 59, 114));
+    height: 70px;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 70px;
+    
+    
+
+}
+
+
+.nav-link{
+    color: #999;
+    text-decoration: none;
+    
+    
+}
+
+.logo{
+    
+    width: 100%;
+    height: 80px;
+    box-sizing: content-box;
+
+    
+    
+
+}
+
+.nav-menu{
+    display: flex;
+    position: relative;
+    list-style: none;
+
+
+}
+
+.nav-menu-item{
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    
+    width: max-content;
+
+}
+
+
+.nav-menu-link:hover{
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+
+
+}
+
+/* sub-menu o menu vertical*/
+
+.sub-menu{
+    position: absolute;
+    list-style: none;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition:   opacity 1.5s;
+    
+    
+    
+    
+}
+.sub-menu-item {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    
+
+ 
+}
+
+.nav-menu li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.conteiner{
+    margin: 0 auto;
+    width: 80%;
+    background: rgba(76, 127, 130, 0.8);
+}
+.banner{
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+    
+    
+}
+.img-banner{
+    
+    height: 950px;
+    width: 100%;
+    
+    
+}
+.acerca_de{
+    
+    margin: 0 auto;
+    width: 80%;
+   
+    
+    
+}
+#img-perfil{
+    
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-right: 20px;
+    float: left;
+    
+}
+
+.nombre{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.titulo{
+    font-size: 20px; 
+    padding: 5px;
+}
+.titulo b{
+    font-weight: 100;
+}
+
+.info_personal{
+    font-size: 15px;
+    font-weight:600px ;
+    
+    
+}
+
+.experiencia{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    
+
+
+}
+
+.experiencia h2{
+    text-align:center;
+    padding:5px 0 5px 0;
+
+}
+
+.experiencia p {
+    font-weight: 100;
+}
+
+.education{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    
+    
+
+
+}
+.education h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.education-item img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 15px;
+    border-radius: 3px;
+    
+}
+.education-item{
+    
+    margin-bottom: 10px;
+    
+    padding: 5px;
+}
+.education-item h4{
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.habilidades {
+    width: 80%;
+    margin: 10px auto;
+}
+.habilidades h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.habilidades h4{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: lowercase;
+
+}
+
+.proyectos{
+    width: 80%;
+    margin: 10px auto;
+}
+.proyectos h2{
+    text-align: center;
+}
+
+.proyectos-item{
+    
+    display: inline-block;
+    margin: 10px;
+
+    
+    
+
+}
+
+.proyectos-item img{
+    width: 250px;
+    min-height: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.proyectos-item h5 {
+    text-align: 15px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.proyectos-item p{
+    margin: 0 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
